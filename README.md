@@ -1,2 +1,1 @@
-# 2026ESWContest_free_kiroro
-2026ESWC_source_code
+
