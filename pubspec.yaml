@@ -1,0 +1,39 @@
+name: smart_shoe
+description: 스마트 신발 네비게이션 앱
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+
+  wakelock_plus: ^1.2.8
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+  flutter_tts: ^4.0.2
+  geolocator: ^12.0.0
+  http: ^1.2.0
+  speech_to_text: ^7.0.0
+  flutter_bluetooth_serial: ^0.4.0
+  multicast_dns: ^0.3.2
+  flutter_compass: ^0.8.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/eye2.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
